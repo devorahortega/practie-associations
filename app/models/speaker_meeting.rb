@@ -1,4 +1,4 @@
 class SpeakerMeeting < ApplicationRecord
-  has_many :speaker
-  has_many :meeting
+  belongs_to :speaker
+  belongs_to :meeting
 end
